@@ -1,0 +1,586 @@
+
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Ultralight.woff2') format('woff2'),
+        url('SFCompactDisplay-Ultralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Medium.woff2') format('woff2'),
+        url('SFCompactDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Heavy.woff2') format('woff2'),
+        url('SFCompactDisplay-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Thin.woff2') format('woff2'),
+        url('SFCompactDisplay-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Bold.woff2') format('woff2'),
+        url('SFCompactDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Light.woff2') format('woff2'),
+        url('SFCompactDisplay-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Black.woff2') format('woff2'),
+        url('SFCompactDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Semibold.woff2') format('woff2'),
+        url('SFCompactDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('SFCompactDisplay-Regular.woff2') format('woff2'),
+        url('SFCompactDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: local('San Francisco Pro Display Bold'), local('San-Francisco-Pro-Display-Bold'),
+        url('SFProDisplay-Bold.woff2') format('woff2'),
+        url('SFProDisplay-Bold.woff') format('woff'),
+        url('SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'San Francisco Pro';
+    src: local('San Francisco Pro Display Medium'), local('San-Francisco-Pro-Display-Medium'),
+        url('SFProDisplay-Medium.woff2') format('woff2'),
+        url('SFProDisplay-Medium.woff') format('woff'),
+        url('SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'San Francisco Pro';
+    src: local('San Francisco Pro Display Light'), local('San-Francisco-Pro-Display-Light'),
+        url('SFProDisplay-Light.woff2') format('woff2'),
+        url('SFProDisplay-Light.woff') format('woff'),
+        url('SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  
+body{
+    overflow: hidden;
+    .left{
+        .videoBG{
+            position: fixed;
+            z-index: -1;
+            overflow: hidden;
+            left: -18%;
+            height: 100vh;
+        }
+        img{
+            position: absolute;
+            top: 40%;
+            left: 35%;
+        }
+    }
+
+    .right{
+        background: #121212;
+        height: 100vh;
+        h1{
+            font-family: 'San Francisco Pro';
+            color: #ECECEC;
+            font-size: 55px;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 1.2em;
+            margin-left: 130px;
+            margin-top: 160px;
+    }
+    h4{
+        font-family: 'San Francisco Pro';
+        color: #ECECEC;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 1.2em;
+            margin-left: 130px;
+            margin-top: 160px;
+    }
+    .info{
+        margin-top: 65px;
+        .contact{
+            margin-left: 130px; 
+            h6{
+                font-family: 'San Francisco Pro';
+                color: #ECECEC;
+                font-size: 21px;
+                font-weight: 500;
+               }
+               p{
+                font-family: 'San Francisco Pro';
+                color: #ECECEC;
+                font-weight: 300;
+                letter-spacing: .025em;
+                font-size: 18px;
+                width: 176px;
+                margin-top: 24px;
+               }
+               a{
+                img{
+                 margin-right: 10px;
+                 margin-top: 24px;
+                }
+     
+            }
+        }
+        .contact2{
+            margin-left: 80px; 
+            h6{
+                font-family: 'San Francisco Pro';
+                color: #ECECEC;
+                font-size: 21px;
+                font-weight: 500;
+               }
+               p{
+                font-family: 'San Francisco Pro';
+                color: #ECECEC;
+                font-weight: 300;
+                letter-spacing: .025em;
+                font-size: 18px;
+                width: 176px;
+                margin-top: 24px;
+               }
+               a{
+                img{
+                 margin-right: 10px;
+                 margin-top: 24px;
+                }
+     
+            }
+        }
+    }
+    .copy{
+        margin-left: 130px; 
+        h5{
+            font-family: 'SF Compact Display';
+      font-weight: 200;
+      font-size: 14px;
+      color: #BFBFBF;
+      margin-top: 100px;
+        }
+        img{
+            width: 35px;
+            color: #BFBFBF;
+  
+        }
+    }
+    }
+    
+}
+
+// tablet and ipad //
+
+ @media (max-width: 768px) {
+    body{
+        .left{
+          .videoBG{
+              position: relative;
+              z-index: -1;
+          overflow: hidden;
+          height: auto;
+          width: 768px;
+          }
+          img{
+            position: absolute;
+            top: 25%;
+    left: 21%;
+    width: 200px;
+          }
+        }
+        .right{
+            background: #121212;
+    height: 100vh;
+    top: -6px;
+    h1{
+        font-family: 'San Francisco Pro';
+        color: #ECECEC;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-left: 32px;
+        margin-top: 48px;
+}
+h4{
+    font-family: 'San Francisco Pro';
+    color: #ECECEC;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: 32px;
+    margin-top: 54px;
+}
+.info{
+    .contact{
+        margin-left: 32px;
+        margin-bottom: 36px;
+        h6{
+            font-family: 'San Francisco Pro';
+    color: #ECECEC;
+    font-size: 14px;
+    font-weight: 500;
+        }
+        p{
+            font-family: 'San Francisco Pro';
+            color: #ECECEC;
+            font-weight: 300;
+            letter-spacing: .025em;
+            font-size: 12px;
+            width: 128px;
+            margin-top: 10px;
+        }
+        a{
+            img{
+             margin-right: 10px;
+             margin-top: 10px;
+            }
+ 
+        }
+        
+
+    }
+}
+.copy{
+    margin-left: 32px; 
+    h5{
+        font-family: 'SF Compact Display';
+  font-weight: 200;
+  font-size: 10px;
+  color: #BFBFBF;
+  margin-top: 50px;
+    }
+    img{
+        width: 30px;
+        color: #BFBFBF;
+
+    }
+}
+        }
+    }
+}
+
+
+// ipad pro and netbook //
+
+       @media (max-width:1024px) {
+         body{
+             .left{
+               .videoBG{
+                   position: relative;
+                   z-index: -1;
+               overflow: hidden;
+               height: auto;
+               width: 1024px;
+               }
+               img{
+                 position: absolute;
+                 top: 25%;
+         left: 21%;
+         width: 200px;
+               }
+             }
+             .right{
+                 background: #121212;
+         height: 100vh;
+         top: -6px;
+         h1{
+             font-family: 'San Francisco Pro';
+             color: #ECECEC;
+             font-size: 45px;
+             text-transform: uppercase;
+             font-weight: 700;
+             line-height: 1.2em;
+             margin-left: 32px;
+             margin-top: 48px;
+     }
+     h4{
+         font-family: 'San Francisco Pro';
+         color: #ECECEC;
+         font-size: 25px;
+         font-weight: 500;
+         line-height: 1.2em;
+         margin-left: 32px;
+         margin-top: 54px;
+     }
+     .info{
+         .contact{
+             margin-left: 32px;
+             margin-bottom: 36px;
+             h6{
+                 font-family: 'San Francisco Pro';
+         color: #ECECEC;
+         font-size: 14px;
+         font-weight: 500;
+             }
+             p{
+                 font-family: 'San Francisco Pro';
+                 color: #ECECEC;
+                 font-weight: 300;
+                 letter-spacing: .025em;
+                 font-size: 12px;
+                 width: 128px;
+                 margin-top: 10px;
+             }
+             a{
+                 img{
+                  margin-right: 10px;
+                  margin-top: 10px;
+                 }
+     
+             }
+            
+    
+         }
+     }
+     .copy{
+         margin-left: 32px; 
+         h5{
+             font-family: 'SF Compact Display';
+       font-weight: 200;
+       font-size: 10px;
+       color: #BFBFBF;
+       margin-top: 50px;
+         }
+         img{
+             width: 30px;
+             color: #BFBFBF;
+    
+         }
+     }
+             }
+     }
+       }
+
+//iphone 7 8 plus //
+
+        @media (max-width:414px) {
+            body{
+                .left{
+                  .videoBG{
+                      position: relative;
+                      z-index: -1;
+                  overflow: hidden;
+                  height: auto;
+                  width: 414x;
+                  }
+                  img{
+                    position: absolute;
+                    top: 25%;
+            left: 21%;
+            width: 142px;
+                  }
+                }
+                .right{
+                    background: #121212;
+            height: 100vh;
+            top: -6px;
+            h1{
+                font-family: 'San Francisco Pro';
+                color: #ECECEC;
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: 700;
+                line-height: 1.2em;
+                margin-left: 32px;
+                margin-top: 48px;
+        }
+        h4{
+            font-family: 'San Francisco Pro';
+            color: #ECECEC;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.2em;
+            margin-left: 32px;
+            margin-top: 54px;
+        }
+        .info{
+            .contact{
+                margin-left: 32px;
+                margin-bottom: 36px;
+                h6{
+                    font-family: 'San Francisco Pro';
+            color: #ECECEC;
+            font-size: 14px;
+            font-weight: 500;
+                }
+                p{
+                    font-family: 'San Francisco Pro';
+                    color: #ECECEC;
+                    font-weight: 300;
+                    letter-spacing: .025em;
+                    font-size: 12px;
+                    width: 176px;
+                    margin-top: 10px;
+                }
+                a{
+                    img{
+                     margin-right: 10px;
+                     margin-top: 10px;
+                    }
+         
+                }
+                
+        
+            }
+        }
+        .copy{
+            margin-left: 32px; 
+            h5{
+                font-family: 'SF Compact Display';
+          font-weight: 200;
+          font-size: 10px;
+          color: #BFBFBF;
+          margin-top: 50px;
+            }
+            img{
+                width: 30px;
+                color: #BFBFBF;
+        
+            }
+        }
+                }
+            }
+ }
+
+
+//iphone X //
+
+ @media (max-width: 375px)  {
+  
+    body{
+        .left{
+          .videoBG{
+              position: relative;
+              z-index: -1;
+          overflow: hidden;
+          height: auto;
+          width: 375px;
+          }
+          img{
+            position: absolute;
+            top: 23%;
+    left: 23%;
+    width: 142px;
+          }
+        }
+        .right{
+            background: #121212;
+    height: 100vh;
+    top: -6px;
+    h1{
+        font-family: 'San Francisco Pro';
+        color: #ECECEC;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-left: 32px;
+        margin-top: 48px;
+}
+h4{
+    font-family: 'San Francisco Pro';
+    color: #ECECEC;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: 32px;
+    margin-top: 54px;
+}
+.info{
+    .contact{
+        margin-left: 32px;
+        margin-bottom: 36px;
+        h6{
+            font-family: 'San Francisco Pro';
+    color: #ECECEC;
+    font-size: 14px;
+    font-weight: 500;
+        }
+        p{
+            font-family: 'San Francisco Pro';
+            color: #ECECEC;
+            font-weight: 300;
+            letter-spacing: .025em;
+            font-size: 12px;
+            width: 176px;
+            margin-top: 10px;
+        }
+        a{
+            img{
+             margin-right: 10px;
+             margin-top: 10px;
+            }
+ 
+        }
+        
+
+    }
+}
+.copy{
+    margin-left: 32px; 
+    h5{
+        font-family: 'SF Compact Display';
+  font-weight: 200;
+  font-size: 10px;
+  color: #BFBFBF;
+  margin-top: 50px;
+    }
+    img{
+        width: 30px;
+        color: #BFBFBF;
+
+    }
+}
+        }
+    }
+    
+  }
+
+  
+
